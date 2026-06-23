@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.env
+
+# Reddit credentials (not used with public JSON, but never commit if added later)
+reddit_credentials.py
+
+# FetchLayer API key
+.fetchlayer_key
+
+# Raw scraped JSON probes
+raw_json/
+
+# OS
+.DS_Store
+
+# Notebook checkpoints
+.ipynb_checkpoints/
